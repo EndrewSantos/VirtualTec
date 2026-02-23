@@ -1,11 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  trailingSlash: true,
-  basePath: '/VirtualTec',
-  images: {
-    unoptimized: true
-  }
-}
+  output: "export",
+  basePath: "/VirtualTec",
+  assetPrefix: "/VirtualTec",
+};
 
-export default nextConfig
+export default nextConfig;
