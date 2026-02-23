@@ -2,11 +2,10 @@
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
+  basePath: '/VirtualTec',
   images: {
     unoptimized: true
-  },
-  basePath: '/VirtualTec',
-  assetPrefix: '/VirtualTec'
+  }
 }
 
 export default nextConfig
