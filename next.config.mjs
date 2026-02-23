@@ -5,8 +5,8 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  basePath: '/virtualtec',
-  assetPrefix: '/virtualtec/',
+  basePath: '/VirtualTec',
+  assetPrefix: '/VirtualTec'
 }
 
 export default nextConfig
